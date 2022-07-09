@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+ text-decoration: none;
+    
+}
+nav{
+    height: 70;
+    background: black;
+}
+nav ul{
+    float: left;
+    margin-left: 30px;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: red;
+    display: block;
+    padding: 0 15px;
+    line-height: 30px;
+    font-size: 20px;
+    background: black;
+    
+}
+nav ul li a:hover
+nav ul li a:active{
+    color: aqua;
+}
+nav ul ul{
+    position: absolute;
+    top: 70px;
+    border-top: 3px solid red;
+    opacity: 0;
+    visibility: hidden;
+      transition-duration: 2s;
+    
+}
+nav ul li:hover>ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    
+    transition: 0.3s;
+     
+
+    
+}
+
+nav ul ul li{ 
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #fff;
+    border-top: none;
+    
+  
+   
+}
+nav ul ul li a{
+    border-top: none;
+   
+}
+.search input[type=text]{
+    width: 400px;
+    height: 40px;
+    
+    border-radius: 35px;
+
+    border: none;
+}
+.search{
+    float: right;
+    margin: 9px;
+}
+
+
+.search button{
+    background-color: cyan;
+    color: saddlebrown;
+    float: right;
+    padding: 5px 15px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none    ;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.img{
+    align-content: flex-start;
+    
+}
+
+
+.msg{
+
+ text-align: center
+    
+}
+
+
+.msg.p{
+
+ position: absolute;
+   top: 50px;
+    border: 3px solid blue;
+    
+    
+}
+
+   a:link {color: red;} 
+
+.msg{
+    text-align: left;
+   
+ display: inline-block;
+   padding-left: 575px;
+    padding-top: -20px;
+    margin-top: -300px;
+    color: red;
+    
+}
+.stds{
+    color: black;
+    padding-top: -200px;
+    margin-left: 80px;
+     display: inline-block;
+    margin-top: -50px;
+    font-size: 30px;
+}
+.s-left{
+    
+    padding: 10px;
+    width: 600;
+ margin: 15px;
+    padding-left: 10px;
+    padding-bottom: 22px;
+    
+}
+.s-right{
+   
+    padding-left: 700;
+    width: 50%;
+    padding-bottom: 0px;
+   
+       margin-top: -146px;
+            
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    
+    
+}
+
+.foot-left{
+    
+    padding: 30px;
+    width: 40%;
+ margin: 40px;
+    padding-left: 10px;
+    background-color: aqua;
+    
+    
+    padding-top: 10px;
+}
+
+
+.logo{
+   padding-left: 800px;
+    margin-top: -170px;
+    background-color: aqua;
+    
+}
+
+
+.form{
+    padding-left: 300px;
+    margin: 10px;
+    
+}
+.marquee{
+    background-color: black;
+    color: red;
+    font-size: 30px;
+  
+}
+.DETAILS{
+    color: blue;
+    
+}
+.srs{
+    padding-left: 100px;
+    
+}
+.srs p {
+    color: red;
+ 
+}
+.YAP{
+    padding-left: 100px;
+    
+}
+
+.AMD{
+    padding-left: 130px;
+margin-top: -29px;
+}
+
+.logog{
+
+    margin-top: -202px;
+    margin-left: 29px;
+    border-radius: 30px;
+    padding: 10px 12px;
+    color: black;
+    background-color: red;
+
+       
+	width: 160px;
+cursor: pointer;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.top{
+  position: fixed;
+
+        bottom: 40px;
+  right: 50px;
+
+    text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: red;
+  font-size: 22px;
+}
+
+/*
+.rgt-img{
+background-image: url('abt.jpg');
+    height: 1300;
+    width: 650;
+}
+*/
+
+/*
+.text{
+    padding-right: 999;
+    margin-top: -1300;
+    padding-left: 700;
+padding-right: 200;
+}
+*/
+.about-section{
+    background: url('abt.jpg') no-repeat left; 
+    background-size: 19%;
+    padding-left: 150;
+    background-color: red;
+    overflow: hidden;
+    padding 100px 0;
+    
+}
+.inner-container{
+    width: 55%;
+        float: right;
+    background-color: red;
+    padding: 150px;
+    
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.text{
+    font-size: 13px;
+    color: green;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+
+
+.skill{
+    display: flex;
+    justify-content: space-between;  
+    font-weight: 700;
+    font-size: 13px;
+}
+.contact-section{
+    background: url(WOW.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+    
+}
+.contact-section h1{
+    text-align: center;
+    color: white;
+}
+.border{
+    width: 0px;
+    height: 80px;
+    background: #34495e;
+    margin: 40px auto;
+    
+    
+}
+.contact-form{
+    max-width: 700px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: black;
+    padding: 20px 40px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+    
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px green;
+    
+}
+.textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: red;
+color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 4s;
+    
+}
+.contact-form-btn:hover{
+    background: green;
+}
+
+
+    
+.grid{
+    display: grid;
+    width: 114em;
+    grid-gap: 6rem;
+        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    align-items: start;
+    
+
+}
+.grid-item{
+    background-color: red;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+      
+}
+.grid-item:hover{
+transform: translateY(-0.5);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+    
+    
+}
+.card-img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+object-fit: cover;
+}
+.card-content{
+    padding: 3rem;
+}
+.card-header{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: white;
+    margin-bottom: 2.5rem;
+}
+.card-btn{
+display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.card-btn-span{
+    margin-left: 1rem;
+    transition: 0.2s;
+    
+}
+.card-btn:hover, 
+.card-btn:active{
+    background-color: #c2cffc;
+}
+.grid{
+    grid-gap: 3rem;
+}
